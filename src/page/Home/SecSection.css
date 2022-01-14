@@ -1,0 +1,40 @@
+.About {
+    width   : 100%; 
+    min-height: 100vh;    
+    display: flex; 
+    justify-content: start;
+
+}
+
+
+
+.codeing-Img img  {
+    width: 500px;
+    height: 500px; 
+    padding: 10%;     
+}
+
+
+.About-info   {
+    position: relative;
+    left: 16%;
+    margin-top: 5rem;
+}
+
+
+.About-info  h2 {
+    font-size: 3.5em;       
+}
+
+
+.About-info  h1 {
+    font-size: 1.5em; 
+    margin-top: 1rem;       
+}
+
+ 
+ .About-info  p {
+    font-size: 0.9em; 
+    margin-top: 2rem;    
+ 
+} 
