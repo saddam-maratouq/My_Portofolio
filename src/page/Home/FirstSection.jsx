@@ -2,7 +2,7 @@ import React from 'react'
 import '../Home/home.css'  
 import {FaGithub}  from 'react-icons/fa'  
 import {FaLinkedin}  from 'react-icons/fa'  
-
+import heroImg from '../../../images/main.png'
 
 
 
@@ -35,7 +35,7 @@ const FirstSection = () => {
             </div>  
 
          <div className="hero">  
-             <img src="images/main.png" alt="hero image" />
+             <img src={heroImg}  alt="hero image" />
            </div>
             
          </div> 
