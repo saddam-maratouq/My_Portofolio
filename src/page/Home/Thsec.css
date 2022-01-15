@@ -1,0 +1,34 @@
+.coding-skils { 
+    background-color: var(--bgColor);
+    width: 100%;
+    min-height: 100vh; 
+    
+}
+
+.title {
+    font-size: 3.5rem; 
+    color: var(--SecColor); 
+    display: flex; 
+    justify-content: center; 
+    font-weight: 800;
+    margin-bottom: 170px;
+    position: relative;
+    top: 39px;
+}
+
+.Skills-icon {
+    display: flex;
+    justify-content: space-around   ; 
+    flex-direction: row ; 
+    transition: 0.7s ease;
+}
+
+
+
+.Skills-icon img  {
+    width: 150px;
+    height: 150 px;  
+    color: aqua;
+}
+
+

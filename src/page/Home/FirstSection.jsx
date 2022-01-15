@@ -29,7 +29,7 @@ const FirstSection = () => {
              <br /> <br /> 
             <div className='icon' >      
        
-             <a href=" https://github.com/saddam-maratouq?tab=repositories" target='_blank' >   <FaGithub size='3em'/>  </a>  
+             <a href=" https://github.com/saddam-maraztouq?tab=repositories" target='_blank' >   <FaGithub size='3em'/>  </a>  
              <a href="https://www.linkedin.com/in/saddam-maratouq-51838a206/"  target='_blank'>      <FaLinkedin size='3em'/>  </a>  
 
             </div>  
