@@ -1,0 +1,49 @@
+nav {
+    padding: 1.5rem ; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+span {
+    color: var(--MainColor); 
+    font-size: 2.1rem; 
+    font-weight: 700;
+}
+
+ nav h2  {
+    color: var(--SecColor); 
+    font-size: 2.1rem; 
+   position: relative; 
+   left: 8%;
+   cursor: pointer; 
+} 
+
+
+h1 {
+    font-size: 2.1rem; 
+} 
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 2rem;  
+    position: relative; 
+    right: 20%;
+}
+
+
+
+nav ul li a  {
+   text-decoration: none; 
+    color: var(--SecColo); 
+    font-size: 1.2rem; 
+    transition: 0.4s;
+}
+
+
+
+nav ul li a:hover {
+   color:  var(--MainColor)  ; 
+}

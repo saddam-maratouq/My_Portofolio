@@ -4,6 +4,9 @@ import {FaGithub}  from 'react-icons/fa'
 import {FaLinkedin}  from 'react-icons/fa'  
 import heroImg from '../../../images/main.png'
 
+// ruter 
+
+
 
 
 
@@ -11,14 +14,7 @@ import heroImg from '../../../images/main.png'
 const FirstSection = () => {
     return (
         <section className='home' id='Main-page'>  
-        <nav>
-        <h2> Saddam <span> maratouq </span>  </h2>  
-        <ul> 
-            <li> <a href=""> Home </a> </li>
-            <li> <a href=""> Project  </a> </li>
-            <li> <a href="">  Resume </a> </li>
-        </ul>
-        </nav> 
+     
 
         <div className="container"> 
          <div className="content">
@@ -29,7 +25,7 @@ const FirstSection = () => {
              <br /> <br /> 
             <div className='icon' >      
        
-             <a href=" https://github.com/saddam-maraztouq?tab=repositories" target='_blank' >   <FaGithub size='3em'/>  </a>  
+             <a href=" https://github.com/saddam-maratouq?tab=repositories" target='_blank' >   <FaGithub size='3em'/>  </a>  
              <a href="https://www.linkedin.com/in/saddam-maratouq-51838a206/"  target='_blank'>      <FaLinkedin size='3em'/>  </a>  
 
             </div>  
@@ -39,7 +35,9 @@ const FirstSection = () => {
            </div>
             
          </div> 
-        </div>
+        </div>  
+
+       
     </section>
     )
 }

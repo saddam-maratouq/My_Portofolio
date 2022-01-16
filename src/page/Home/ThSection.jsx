@@ -1,10 +1,6 @@
 import React from 'react' 
 import './Thsec.css' 
   
-import   css  from '../../../images/css.png' 
-import   html  from '../../../images/html.png' 
-import   js   from '../../../images/js.png' 
-import   react  from '../../../images/react.png'  
 import   Redux  from '../../../images/Redux.png'  
 
 import { FaNodeJs ,FaHtml5, FaCss3Alt  , FaReact } from "react-icons/fa";
