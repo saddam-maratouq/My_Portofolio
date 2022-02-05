@@ -21,7 +21,7 @@ const FirstSection = () => {
              <h3>  Hello there,  🤝 I'm  </h3> <br /> <br />
              <h1> Saddam <span> maratouq</span> </h1> <br /> <br /> 
              <h2> I'm <span> Frontend  </span> develober   </h2>  
-             <a href="" className="btn"> Download CV </a> 
+             <a href="#" target='_blank'  className="btn"> Download CV </a> 
              <br /> <br /> 
             <div className='icon' >      
        

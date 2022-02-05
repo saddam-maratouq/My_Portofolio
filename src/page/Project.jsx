@@ -6,6 +6,7 @@ import ExpenseTracker from '../../images/Ex.jpg'
 import CatStore from '../../images/pro1C.jpg' 
 import DiscoverCity from '../../images/pro2Ci.jpg' 
 
+
 //icons  
 import {FaGithubAlt}  from 'react-icons/fa'  
 
@@ -28,8 +29,8 @@ const Project = () => {
 
         <div className="project-info">
                 <h2>  Cat store  </h2> 
-                <a href=" https://cat-store-96.netlify.app/Producet " target='_blank' >  <SiNetlify size='2em' /> </a> 
-                <a href=" https://github.com/saddam-maratouq/Cat_Store " target='_blank' >  <FaGithubAlt size='2em'  />   </a> 
+                <a href=" https://cat-store-96.netlify.app/Producet " target='_blank' >  <SiNetlify size='2em' color='white' /> </a> 
+                <a href=" https://github.com/saddam-maratouq/Cat_Store " target='_blank' >  <FaGithubAlt size='2em'  color='white' />   </a> 
 
         </div>
     </div>  
@@ -41,8 +42,8 @@ const Project = () => {
 
         <div className="project-info">
                 <h2>  Expense Tracker </h2> 
-                <a href=" https://expense-traker-96.netlify.app/ " target='_blank' >  <SiNetlify size='2em' /> </a> 
-                <a href=" https://github.com/saddam-maratouq/Expense_Tracker " target='_blank' >  <FaGithubAlt size='2em'  />   </a> 
+                <a href=" https://expense-traker-96.netlify.app/ " target='_blank' >  <SiNetlify size='2em' color='white' /> </a> 
+                <a href=" https://github.com/saddam-maratouq/Expense_Tracker " target='_blank' >  <FaGithubAlt size='2em' color='white' />   </a> 
 
         </div>
     </div> 
@@ -55,8 +56,8 @@ const Project = () => {
         <div className="project-info">
                 <h2> Discover City </h2> 
                 <a href="https://discover-city-sq.netlify.app/
-                   " target='_blank' >  <SiNetlify size='2em' /> </a> 
-                <a href="https://github.com/saddam-maratouq/Discover-city" target='_blank' >  <FaGithubAlt size='2em'  />   </a> 
+                   " target='_blank' >  <SiNetlify size='2em' color='white' /> </a> 
+                <a href="https://github.com/saddam-maratouq/Discover-city" target='_blank' >  <FaGithubAlt size='2em'  color='white' />   </a> 
 
         </div>
     </div> 

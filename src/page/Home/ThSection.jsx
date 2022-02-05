@@ -1,7 +1,7 @@
 import React from 'react' 
 import './Thsec.css' 
   
-import   Redux  from '../../../images/Redux.png'  
+import   Redux  from '../../../images/redux.png'  
 
 import { FaNodeJs ,FaHtml5, FaCss3Alt  , FaReact } from "react-icons/fa";
 

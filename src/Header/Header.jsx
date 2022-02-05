@@ -8,12 +8,14 @@ import Home from '../page/Home/Home'
 import Project from '../page/Project'
 import Resume from '../page/Resume' 
 
+import logo from '../../images/Slog.png'
+
 const Header = () => {
     return ( 
         <div>
 
         <nav>
-        <h2> Saddam <span> maratouq </span>  </h2>  
+        <h2>  <img className='logo' src={logo} alt=" logo " />   </h2>  
         <ul> 
             <li> <Link to ="/Home"> Home </Link> </li>
             <li> <Link to ="/Project"> Project  </Link> </li>

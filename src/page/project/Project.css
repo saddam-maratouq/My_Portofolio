@@ -1,15 +1,14 @@
 
 .projects {
-   margin-top: 122px; 
-   background-color: #29797A;
-}
-
+    margin-bottom: 10%;
+    background-color: #29797A;
+  }
 
 
 .contentainer {
 
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap; 
 }
@@ -20,8 +19,7 @@
     min-height: 15em ; 
     width: 23em; 
     overflow: hidden ;
-    margin: 20px ;
-
+    margin-bottom: 20%;
 }
 
 
@@ -42,3 +40,6 @@
 } 
 
 
+FaGithubAlt {
+    background-color: black;
+}
