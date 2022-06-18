@@ -4,6 +4,8 @@ import {FaGithub}  from 'react-icons/fa'
 import {FaLinkedin}  from 'react-icons/fa'  
 import heroImg from '../../../images/main.png'
 // import Typical from 'react-typical'
+import { ReactTypical } from '@deadcoder0904/react-typical'
+
 // ruter 
 
 
@@ -23,15 +25,15 @@ const FirstSection = () => {
 
              <h2> I'm a  {''}
              
-              {/* <Typical 
+              <ReactTypical 
               loop={Infinity}
               wrapper="span"
               steps={[
                   'Frontend developer 💻 ', 1500,
                   'Mobile developer 📱 ', 1500,
-              ]}        */}
+              ]}      
 
-             {/* />  */}
+             /> 
               </h2>   
 
              <a href="#" target='_blank'  className="btn"> Download CV </a> 
