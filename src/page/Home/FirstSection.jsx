@@ -3,7 +3,7 @@ import '../Home/home.css'
 import {FaGithub}  from 'react-icons/fa'  
 import {FaLinkedin}  from 'react-icons/fa'  
 import heroImg from '../../../images/main.png'
-
+import Typical from 'react-typical'
 // ruter 
 
 
@@ -18,9 +18,21 @@ const FirstSection = () => {
 
         <div className="container"> 
          <div className="content">
-             <h3>  Hello there,  🤝 I'm  </h3> <br /> <br />
-             <h1> Saddam <span> maratouq</span> </h1> <br /> <br /> 
-             <h2> I'm <span> Frontend  </span> develober   </h2>  
+             <h3>  Hello there,  🤝  </h3> <br /> <br />
+             <h1> I'm SADDAM </h1> <br /> <br /> 
+
+             <h2> I'm a  {''}
+             
+              <Typical 
+              loop={Infinity}
+              wrapper="span"
+              steps={[
+                  'Frontend developer 💻 ', 1500,
+                  'Mobile developer 📱 ', 1500,
+              ]}       
+
+             />  </h2>   
+
              <a href="#" target='_blank'  className="btn"> Download CV </a> 
              <br /> <br /> 
             <div className='icon' >      

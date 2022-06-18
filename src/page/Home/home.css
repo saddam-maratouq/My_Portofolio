@@ -10,8 +10,6 @@
 /* // header  */
 
 
-
-
 .container {
     flex-grow: 1; 
     display: flex; 
@@ -23,7 +21,8 @@
 .content  {
     padding: 7.5rem;  
     position: relative;
-    bottom: 2.5rem;  
+    bottom: 3.5rem;  
+    color: #fff;
 } 
 .content  h3  {
  font-size: 2rem; 
@@ -31,25 +30,27 @@
 }
 
 .content h1 {
-    font-size: 3rem; 
+    font-size: 5rem; 
+    font-family: monospace;
 }
 
 .content h2 {
     font-size: 3rem; 
     margin-bottom: 4rem;
-
+    font-family: monospace;
+    color: var(--MainColor);
 }
 
 .btn { 
-    background-color: #29797A ; 
+    background-color: var(--MainColor); ; 
     border-radius: 28px; 
     text-align: center; 
     text-decoration: none; 
     color: var(--SecColor); 
     padding: 1.5rem;
-    font-weight: bold;
-    font-size: 18px;
-    letter-spacing: 0.3em; 
+    font-weight: '1000';
+    font-size: 20px;
+    letter-spacing: 0.1em; 
     margin-bottom: 4rem ; 
     transition: 0.7s ease ;
 } 
@@ -83,8 +84,8 @@
 .hero img {
     position: absolute;
     bottom: 2rem;
-    left: 45rem ; 
-    width: 400px;
-    height: 400px; 
+    left: 74rem ; 
+    width: 450px;
+    height: 450px; 
 }
 
