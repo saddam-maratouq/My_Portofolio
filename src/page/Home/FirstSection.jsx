@@ -3,7 +3,7 @@ import '../Home/home.css'
 import {FaGithub}  from 'react-icons/fa'  
 import {FaLinkedin}  from 'react-icons/fa'  
 import heroImg from '../../../images/main.png'
-import Typical from 'react-typical'
+// import Typical from 'react-typical'
 // ruter 
 
 
@@ -23,15 +23,16 @@ const FirstSection = () => {
 
              <h2> I'm a  {''}
              
-              <Typical 
+              {/* <Typical 
               loop={Infinity}
               wrapper="span"
               steps={[
                   'Frontend developer 💻 ', 1500,
                   'Mobile developer 📱 ', 1500,
-              ]}       
+              ]}        */}
 
-             />  </h2>   
+             {/* />  */}
+              </h2>   
 
              <a href="#" target='_blank'  className="btn"> Download CV </a> 
              <br /> <br /> 
