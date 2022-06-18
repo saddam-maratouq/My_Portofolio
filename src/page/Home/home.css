@@ -43,7 +43,7 @@
 
 .btn { 
     background-color: var(--MainColor); ; 
-    border-radius: 28px; 
+    border-radius: 10px; 
     text-align: center; 
     text-decoration: none; 
     color: var(--SecColor); 
@@ -52,13 +52,14 @@
     font-size: 20px;
     letter-spacing: 0.1em; 
     margin-bottom: 4rem ; 
-    transition: 0.7s ease ;
+    transition: 0.7s ease-in-out ;
 } 
 
 
 .btn:hover {
-    background-color: aqua;
-    transform : scale(1.1);
+    /* background-color: aqua; */
+    /* transform : scale(1.1); */
+    transform: scale(1.1);
 } 
 
 
@@ -71,8 +72,12 @@
 
 .icon a  {  
     text-decoration: none;
-    transition: 4s;
+    transition: 1s;
     color: var(--SecColor); 
+}
+
+.icon a:hover {
+    color: var(--MainColor); 
 }
 
 .hero {

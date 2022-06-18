@@ -1,7 +1,7 @@
 .About { 
     
     width   : 100%; 
-    min-height: 100vh;    
+    min-height: 80vh;    
     display: flex; 
     justify-content: start;
 
@@ -10,8 +10,8 @@
 
 
 .codeing-Img img  {
-    width: 500px;
-    height: 500px; 
+    width: 600px;
+    height: 600px; 
     padding: 10%;     
 }
 
@@ -19,12 +19,20 @@
 .About-info   {
     position: relative;
     left: 16%;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 
 .About-info  h2 {
-    font-size: 3.5em;       
+    font-size: 2.5rem;       
+}
+
+.About-info  h2 span {
+    font-size: 2.5rem;       
+}
+
+.About-info  p span {
+    font-size: 1.4rem;       
 }
 
 
@@ -33,9 +41,12 @@
     margin-top: 1rem;       
 }
 
+.realeted {
+    margin-bottom: 50px;
+}
  
  .About-info  p {
-    font-size: 0.9em; 
+    font-size: 1.4em; 
     margin-top: 2rem;    
  
 } 
