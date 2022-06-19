@@ -2,7 +2,8 @@
     background-color: var(--bgColor);
     width: 100%;
     min-height: 100vh; 
-    
+   
+   
 }
 
 .title {
@@ -20,10 +21,18 @@
     display: flex;
     justify-content: space-around   ; 
     flex-direction: row ; 
-    transition: 0.7s ease;
+    transition: 1.7s  ease-in-out;
+    color: #fff ;
+    border: 1px solid var(--SecColor);
+    border-radius: 15px;
+    padding: 30px;
+    margin:30px
 }
 
-
+.Skills-icon:hover{
+    transform: scale(0.9);
+    background-color: var(--MainColor);
+}
 
 .Skills-icon img  {
     width: 150px;
@@ -31,4 +40,23 @@
     /* color: aqua; */
 }
 
+.gitTitle {
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+}
+.gitTitle h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.calender {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    text-align: center;
+    color: #fff;
+   font-weight: 900;
+}
 

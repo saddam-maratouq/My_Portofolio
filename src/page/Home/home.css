@@ -74,6 +74,7 @@
     text-decoration: none;
     transition: 1s;
     color: var(--SecColor); 
+    
 }
 
 .icon a:hover {

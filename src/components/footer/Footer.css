@@ -1,0 +1,36 @@
+.footerContainer {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--MainColor);
+    width: 100%;
+    min-height: 10vh;
+   
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-content h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    /* margin-bottom: 30px; */
+    color: #fff;
+}
+
+.footer-content h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    /* margin-bottom: 30px; */
+    color: #fff;
+}
+
+.foter-icon {
+   display: flex;
+   width: 7%;
+    justify-content: space-between;
+    align-items: center;
+}
