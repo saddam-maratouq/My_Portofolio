@@ -36,7 +36,7 @@ const FirstSection = () => {
               </h2>   
             <div className='butoonContent' >  
              <a href="https://drive.google.com/file/d/1P2mtqSL4-LF5fO2p14KlzGAfqe3kzkWX/view" download target='_blank'  className="btn"> Download CV </a> 
-             <a href="https://outlook.live.com/mail/0/"  target='_blank'  className="btn"> Hire me  </a> 
+             <a href="#"  target='_blank'  className="btn"> Hire me  </a> 
              </div>
              <br /> <br /> 
             <div className='icon' >      
@@ -47,7 +47,7 @@ const FirstSection = () => {
             </div>  
 
          <div className="hero">  
-             <img src={heroImg}  alt="hero image" />
+             <img src={heroImg}  alt="hero image" /> 
            </div>
             
          </div> 
