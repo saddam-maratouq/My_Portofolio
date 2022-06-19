@@ -1,8 +1,9 @@
 
 .projects {
-    margin-bottom: 10%;
-    background-color: #29797A;
+    background-color: var(--bgColor)
   }
+
+  
 
 
 .contentainer {
@@ -11,35 +12,7 @@
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap; 
+   
 }
 
 
-.projects-cards { 
-    border: 5px solid black ; 
-    min-height: 15em ; 
-    width: 23em; 
-    overflow: hidden ;
-    margin-bottom: 20%;
-}
-
-
-.projects-img img {
-    width: 100%; 
-    min-height: 40vh; 
-}
-
-
-.project-info {
-    display: flex;
-    justify-content: space-between ;
-} 
-
-.project-info h2  {
-   margin-top: 10px ; 
-   padding-left: 10px; 
-} 
-
-
-FaGithubAlt {
-    background-color: black;
-}
