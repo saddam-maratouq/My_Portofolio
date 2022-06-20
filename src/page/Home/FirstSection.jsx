@@ -5,7 +5,6 @@ import heroImg from '../../../images/main.png'
 // import Typical from 'react-typical'
 import { ReactTypical } from '@deadcoder0904/react-typical'
 
-// ruter 
 
 
 

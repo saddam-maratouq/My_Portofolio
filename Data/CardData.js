@@ -19,7 +19,7 @@ export const CardData = [
         id: 3,
         title: 'Cat Store',
         Image: '../images/pro1C.jpg', 
-        github: 'https://github.com/saddam-maratouq/Cat_Store',
+        github: 'https://github.com/saddam-maratouq/Cat_Store/tree/Normal',
         netlify: 'https://cat-lover.netlify.app/home',
     },
 
@@ -40,7 +40,7 @@ export const CardData = [
     },
 
     {
-        id: 5,
+        id: 6,
         title: 'Electro store',
         Image: '../images/pro3El.jpg', 
         github: 'https://github.com/saddam-maratouq/elctro', 
@@ -48,3 +48,4 @@ export const CardData = [
     },
 
 ]
+
