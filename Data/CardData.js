@@ -4,21 +4,21 @@ export const CardData = [
     {
     id: 1,
     title: 'Instgram',
-    Image: '../images/projects image/cropInsta.jpg',
+    Image: 'https://i.ibb.co/Rpwp8hg/crop-Insta.jpg',
     github: 'https://github.com/saddam-maratouq/R-N-Instagram',
    
    },
     {
         id: 2,
         title: 'Sq food',
-        Image: '../images/projects image/cropFood.jpg', 
+        Image: 'https://i.ibb.co/wMLRFKt/cropFood.jpg', 
         github: 'https://github.com/saddam-maratouq/R.N-FoodApp',
     },
     
     {
         id: 3,
         title: 'Cat Store',
-        Image: '../images/pro1C.jpg', 
+        Image: 'https://i.ibb.co/5vwJpVM/cass-1.jpg', 
         github: 'https://github.com/saddam-maratouq/Cat_Store/tree/Normal',
         netlify: 'https://cat-lover.netlify.app/home',
     },
