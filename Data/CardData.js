@@ -26,7 +26,7 @@ export const CardData = [
     {
         id: 4,
         title: 'Expense Tracker',
-        Image: '../images/Expense.jpg', 
+        Image: 'https://i.ibb.co/ncDdpdg/Expense.jpg', 
         github: 'https://github.com/saddam-maratouq/Expense_Tracker',
         netlify: 'https://expense-traker-96.netlify.app/',
     },
@@ -34,7 +34,7 @@ export const CardData = [
     {
         id: 5,
         title: 'Discover city',
-        Image: '../images/pro2Ci.jpg', 
+        Image: 'https://i.ibb.co/zfXKb4d/pro2Ci.jpg', 
         github: 'https://github.com/saddam-maratouq/Discover-city', 
         netlify: 'https://discover-city-sq.netlify.app/',
     },
@@ -42,7 +42,7 @@ export const CardData = [
     {
         id: 6,
         title: 'Electro store',
-        Image: '../images/pro3El.jpg', 
+        Image: 'https://i.ibb.co/0tSP9v9/pro3El.jpg', 
         github: 'https://github.com/saddam-maratouq/elctro', 
         netlify: 'https://saddam-maratouq.github.io/elctro/',
     },
