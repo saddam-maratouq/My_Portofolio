@@ -1,17 +1,14 @@
 import React from 'react'
 import './project/Project.css' 
+    
 
-//Images     
-// import ExpenseTracker from '../../images/Ex.jpg' 
-import CatStore from '../../images/pro1C.jpg' 
-import DiscoverCity from '../../images/pro2Ci.jpg' 
-
-
-
-
-
+//Data
 import { CardData } from '../../Data/CardData' 
+
+
+//components
 import ProjectCard from './project/ProjectCard'
+import Creditcard from '../components/Credit card/Creditcard'
 
 
   
@@ -30,6 +27,8 @@ const Project = () => {
     
  
     </div> 
+
+    <Creditcard/>  
 
 </section>  
 

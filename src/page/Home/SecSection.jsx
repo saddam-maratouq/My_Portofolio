@@ -1,7 +1,7 @@
 import React from 'react'
 import './SecSection.css' 
 
-import AboutImg  from '../../../images/Programming.png' 
+import AboutImg  from '../../../images/Programming-amico.png' 
 
 
 const SecSection = () => {

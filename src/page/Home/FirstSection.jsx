@@ -1,5 +1,5 @@
 import React from 'react' 
-import '../Home/home.css'  
+import '../Home/first.css'  
 import {FaGithub,FaLinkedin}  from 'react-icons/fa'  
 import heroImg from '../../../images/main.png'
 // import Typical from 'react-typical'
@@ -34,7 +34,7 @@ const FirstSection = () => {
              /> 
               </h2>   
             <div className='butoonContent' >  
-             <a href="https://drive.google.com/file/d/1P2mtqSL4-LF5fO2p14KlzGAfqe3kzkWX/view" download target='_blank'  className="btn"> Download CV </a> 
+             <a href="https://drive.google.com/file/d/1P2mtqSL4-LF5fO2p14KlzGAfqe3kzkWX/view" download target='_blank'  className="btns"> Download CV </a> 
              <a href="mailto:sadam.sadam.sadam@hotmail.com"  target='_blank'  className="btn"> Hire me  </a> 
              </div>
              <br /> <br /> 

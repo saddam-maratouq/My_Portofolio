@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap');
 
 :root {
-  --MainColor :#14b3b3;  
+  --MainColor :#579636;
   --SecColor : white; 
   --bgColor : #171a1c;  
-  --pading : 8%; 
+  /* --padding : 8%;  */
 }
 
 
@@ -16,4 +16,5 @@
   font-family: 'Josefin Sans', sans-serif; 
   font-size: 16px; 
 }
+
 
