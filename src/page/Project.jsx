@@ -8,7 +8,6 @@ import { CardData } from '../../Data/CardData'
 
 //components
 import ProjectCard from './project/ProjectCard'
-import Creditcard from '../components/Credit card/Creditcard'
 
 
   
@@ -28,7 +27,6 @@ const Project = () => {
  
     </div> 
 
-    <Creditcard/>  
 
 </section>  
 

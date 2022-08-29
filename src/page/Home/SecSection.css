@@ -2,9 +2,9 @@
     
     width   : 100%; 
     min-height: 80vh;    
-    display: flex; 
-    justify-content: start;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -16,11 +16,11 @@
 }
 
 
-.About-info   {
+/* .About-info   {
     position: relative;
     left: 16%;
     margin-top: 6rem;
-}
+} */
 
 
 .About-info  h2 {

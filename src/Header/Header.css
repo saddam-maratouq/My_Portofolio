@@ -1,16 +1,8 @@
-nav {
-    padding: auto ; 
-    display: flex; 
-    justify-content: space-between;
-    align-items: center; 
-    width: 100%;
-    overflow: hidden;
-}
+
 
 .logo {
     width: 150px;
     height: 120px;
-    margin-left: 38%;
 }
 
 
@@ -23,14 +15,7 @@ span {
     font-weight: 700;
 }
 
- /* nav h2  {
-    color: var(--SecColor); 
-    font-size: 2.1rem; 
-   position: relative; 
-   left: 8%;
-   cursor: pointer; 
-}  */
-
+ 
 
 h1 {
     font-size: 2.1rem; 
@@ -50,7 +35,7 @@ nav ul li {
 nav ul li a  {
    text-decoration: none; 
     color: var(--SecColo); 
-    font-size: 1.6rem; 
+    font-size: 1.5rem; 
     transition: 0.4s;
 }
 
