@@ -1,14 +1,13 @@
 .coding-skils { 
     background-color: var(--bgColor);
     width: 100%;
-    min-height: 100vh; 
+    min-height: 50vh; 
 }
 
 .title {
     font-size: 3.5rem; 
     color: var(--SecColor); 
-    display: flex; 
-    justify-content: center; 
+    text-align: center;
     font-weight: 800;
     margin-bottom: 170px;
     position: relative;
@@ -16,9 +15,8 @@
 }
 
 .Skills-icon {
-    display: flex;
-    justify-content: space-around   ; 
-    flex-direction: row ; 
+    /* display: flex; */
+    /* justify-content: space-around   ;  */
     transition: 1.7s  ease-in-out;
     color: #fff ;
     border: 1px solid var(--SecColor);
@@ -49,8 +47,8 @@
     margin-bottom: 30px;
 }
 .calender {
-    justify-content: center;
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: 70px;
     text-align: center;
@@ -58,3 +56,10 @@
    font-weight: 900;
 }
 
+
+@media  screen and (max-width:576px) {
+    .Skills-icon {
+        display: block;
+        text-align: center;
+    }
+}

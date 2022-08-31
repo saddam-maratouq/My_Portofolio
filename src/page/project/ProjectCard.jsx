@@ -12,6 +12,7 @@ import { SiNetlify } from "react-icons/si";
 const ProjectCard = ({ project }) => {
 
     const {  title,Image,github, netlify  }  = project; 
+
   return (
     <> 
     <div className="projects-cards">
@@ -32,8 +33,6 @@ const ProjectCard = ({ project }) => {
 
     </div>
 </div>  
-
-
 
 
  </>

@@ -18,7 +18,7 @@ const FirstSection = () => {
      
         <div className="container"> 
 
-         <div className="content text-center text-md-start ">
+         <div className="content text-center text-md-start   ">
             
             <div>
                  <h3>  Hello there,  🤝  </h3> <br /> <br />

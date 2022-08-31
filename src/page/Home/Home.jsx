@@ -5,7 +5,7 @@ import React from 'react'
 //Components
 import FirstSection from './FirstSection'
 import SecSection from './SecSection'
-// import ThSection from './ThSection'
+import ThSection from './ThSection'
 
 
 
@@ -15,7 +15,7 @@ const Home = () => {
      <div>
          <FirstSection/>  
          <SecSection/> 
-         {/* <ThSection/> */}
+         <ThSection/>
      </div>
     )
 }

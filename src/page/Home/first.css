@@ -97,3 +97,14 @@ a:hover {
     width: 80%;
      justify-content: space-between;
 }
+
+
+/* media query  */
+
+@media  screen and (max-width:576px) {
+    .content {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}

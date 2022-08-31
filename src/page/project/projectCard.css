@@ -4,26 +4,31 @@
 .projects-cards { 
     border: 5px solid #fff ; 
     min-height: 15em ; 
-    width: 30.5em; 
+    max-width: 200%; 
     overflow: hidden ;
     margin-bottom: 20%;
 }
 
+.projects-img {
+    overflow: hidden;
+}
 
 .projects-img img {
     width: 30rem; 
-    min-height: 40vh; 
+    height: 35vh; 
 }
 
 
 .project-info {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-around ;
+    align-items: center;
+    padding: 10px 0px;
 } 
 
 .project-info h2  {
    margin-top: 10px ; 
-   padding-left: 10px; 
+   
 } 
 
 .projectTitle {
@@ -32,3 +37,15 @@
     color: #fff;
 }
 
+@media  screen and (max-width:550px) {
+    .projects-cards { 
+       
+       min-width: 100%; 
+       
+        
+    }
+
+    .projects-img img {
+        width: 100%; 
+    }
+}

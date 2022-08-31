@@ -2,10 +2,8 @@
 
 .logo {
     width: 150px;
-    height: 120px;
+    /* height: 120px; */
 }
-
-
 
 
 
@@ -43,4 +41,13 @@ nav ul li a  {
 
 nav ul li a:hover {
    color:  var(--MainColor)  !important; 
+}
+
+
+@media  screen and (max-width:990px) {
+    nav ul li { 
+        position: relative; 
+        right: 7%;
+    }
+    
 }

@@ -9,19 +9,23 @@ import { SiRedux } from "react-icons/si";
 
 const ThSection = () => {
 
-
  
   GitHubCalendar(".calendar", "saddam-maratouq", { responsive: true })
+
+
     return (
-      <section className='coding-skils'> 
+
+      <section className='coding-skils py-5'> 
+        <div className="container">
         <h2 className='title' >  Coding Skills  </h2>  
-         <div className="Skills-icon"> 
-         <FaNodeJs  size='9em'/> 
-          <FaHtml5 size='9em' /> 
-          < FaCss3Alt size='9em' /> 
-          <FaReact size='9em' /> 
-          <SiRedux size='9em' />
+         <div className="Skills-icon  d-md-flex justify-content-md-around  align-items-center "> 
+         <FaNodeJs className=' text-center'   size='9em'/> 
+          <FaHtml5   size='9em' /> 
+          < FaCss3Alt   size='9em' /> 
+          <FaReact   size='9em' /> 
+          <SiRedux   size='9em' /> 
           </div> 
+        </div>
 
           <div className='gitTitle' >  
           <h1>  Days I coding </h1>
