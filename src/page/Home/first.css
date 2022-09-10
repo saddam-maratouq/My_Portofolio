@@ -1,16 +1,13 @@
 
 .home {
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     background-color: var(--bgColor);  
     display: flex; 
     overflow: hidden;
-  
 }
 
-/* // header  */
-
-
+/* // header // */
 
 
 

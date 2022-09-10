@@ -1,7 +1,7 @@
 
 
 .logo {
-    width: 150px;
+    width: 100px;
     /* height: 120px; */
 }
 
@@ -23,9 +23,9 @@ h1 {
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    margin: 2rem;  
-    position: relative; 
-    right: 20%;
+    margin: 0 1.5rem;  
+    /* position: relative; 
+    right: 20%; */
 }
 
 
